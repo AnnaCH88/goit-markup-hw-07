@@ -1,0 +1,70 @@
+/*восьмой паршал*/
+
+.team__soclink {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: var(--soc-icon-color);
+
+    transition: color var(--anmation), background-color var(--anmation);
+}
+.team__soclink:hover,
+.team__soclink:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    
+}
+
+.team__icon {
+    fill: currentColor;    
+}
+
+
+.footer-soclink-list {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+
+.footer-link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--main-bg-color);
+    border-radius: 50%;
+    color: var(--accent-color);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--anmation);
+
+}
+.footer-soclink {
+
+&:not(:last-child) {
+    margin-right: 10px; 
+}   
+}
+
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+    background-color: var(--accent-color);
+   
+}
+
+.soclink {
+    color: currentColor;
+}

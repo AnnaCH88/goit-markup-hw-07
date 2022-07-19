@@ -1,5 +1,26 @@
 //utils styles
-@import "./utils/vars";
-
+@import "./utils/variables";
 @import "./utils/reset";
+@import "./utils/placeholder";
+@import "./utils/visualy-hidden";
+
+
+//components style
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/logo";
+@import "./components/section";
+@import "./components/socilal";
+@import "./components/overlay";
+
+//layaots
+@import "./layauts/header";
+@import "./layauts/hero";
+@import "./layauts/features";
+@import "./layauts/activities";
+@import "./layauts/team";
+@import "./layauts/clients";
+@import "./layauts/portfolio";
+@import "./layauts/footer";
+@import "./layauts/modal"
 

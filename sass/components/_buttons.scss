@@ -1,6 +1,6 @@
 /*четвертый паршал*/
 
-.hero__button {
+.btn {
     margin-top: 30px;
     padding: 10px 32px;
 
@@ -44,9 +44,93 @@
     transition: backgraund-color var(--anmation);
 }
 
-&:hover,
-&:focus {
+.btn:hover,
+.btn:focus {
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
+}
+
+.button-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-8px, 8px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--main-bg-color);
+    
+    transition: backgraund-color var(--anmation)
+}
+
+.button-close:hover {
+    fill: var(--accent-color);
+}
+
+
+.modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 30px; 
+    
+    padding: 10px 55px;
+    width: 200px;
+    height: 50px;
+       
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+}
+
+.filter__button {
+    margin-right: 8px;
+    display: inline-block;
+    padding: 6px 22px;
+
+    cursor: pointer;
+    border: none;
+    background-color: var(--button-backgound-color);
+    border-radius: 4px;
+    
+    color: var(--secondary-text-color);
+    
+    font-family: Roboto, sens-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; 
+    
+    transition: color var(--anmation), background-color var(--anmation), box-shadow var(--anmation);
+}
+
+.filter__button:hover,
+.filter__button:focus {
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
+    0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
